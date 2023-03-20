@@ -3,11 +3,11 @@
 
 /**
  * init_dog - initializesa variable of type struct dog
- * @d: pointer to struct dog to iniatialize 
+ * @d: pointer to struct dog to iniatialize
  * @name: name to iniatialize
- * @owner: owner to iniatialize 
+ * @owner: owner to iniatialize
  */
-void init_dof(struct dog *d, char *name,float age, char *owner)
+void init_dof(struct dog *d, char *name, float age, char *owner)
 {
 	if (d == NULL)
 		d = malloc(sizeof(struct dog));
